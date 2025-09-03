@@ -1,0 +1,252 @@
+
+   body {
+      background-color: #f1f1f1;
+    }
+
+    .navbar {
+      background-color: #ffa94d;
+    }
+
+    .dropdown-item:hover {
+      background-color: #fff2e0;
+      color: #ff8533;
+    }
+
+    .btn-search {
+      background-color: white;
+      color: #ff8533;
+    }
+
+    .btn-search:hover {
+      background-color: #ffe8cc;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      box-shadow:0px 0px 20px 20px rgba(0, 0, 0, 0.07);
+      transform: translateY(-10px);
+    }
+
+    .card-title {
+      color: #e6731f;
+    }
+
+    .card-img-top {
+      border-radius: 8px 8px 0 0;
+      object-fit: cover;
+      height: 200px;
+    }
+
+    .btn-laranja {
+      background-color: #e6731f;
+      color: white;
+      border: none;
+    }
+
+    .btn-laranja:hover {
+      background-color: #e6731f;
+    }
+
+    footer {
+      background-color: #ffa94d;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+}
+.vidio{
+  text-align:center;
+}
+.diminuir{
+  height:20px;
+  color: #007BFF;
+}
+#anuncio{
+  background-color: #ffa94d;
+  color: white;
+}
+#anuncio-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#anuncio {
+  background-color: white;
+  padding: 30px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+#anuncio h2 {
+  margin-top: 0;
+}
+
+#fechar-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e6731f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#fechar-btn:hover {
+  background-color: #c0392b;
+}
+
+#conteudo-site {
+  display: none;
+  padding: 20px;
+}
+
+.botao:hover{
+  background-color: green;
+}
+.botao-circular-whats {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;         
+        
+  padding: 0;                 
+  background-color: black;    
+}
+
+.botao-circular-whats:hover {
+  background-color:green;     
+}
+
+.botao-circular-insta {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;         
+        
+  padding: 0;                 
+  background-color: black;    
+}
+
+.botao-circular-insta:hover {
+  background-color:#E9480E;     
+}
+
+.botao-circular-gmail {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;         
+        
+  padding: 0;                 
+  background-color: black;    
+}
+
+.botao-circular-gmail:hover {
+  background-color:whitesmoke;     
+}
+
+.botao-circular-face {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;         
+        
+  padding: 0;                 
+  background-color: black;    
+}
+
+.botao-circular-face:hover {
+  background-color:darkblue;     
+}
+
+.icone-botao {
+  width: 30px;
+  height: auto;
+}
+.fac{
+  border-radius:5px
+}
+.cad:hover{
+  color:white;
+}
+
+.funndo{
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin: auto;
+}
+.fundocadastro{
+  background-image: url('cadastrofundo.png');
+  background-position: center;   
+  background-repeat: no-repeat;  
+  background-size: cover;     
+  opacity: 0.5;  
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.escrever{
+  width: 50vh;
+  height: 5vh;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+  border: rgb(0, 0, 0);
+}
+.escrever:hover{
+  background-color: #ffa94d;
+}
+.inputescrever{
+  padding: 25px;
+}
+.botaocadastro{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+.botaocadastro:hover{
+  background-color: rgb(0, 94, 0);
+  color: white;
+}
+.botaoproblema{
+  background-color: rgba(223, 33, 19, 0.849);
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+.botaoproblema:hover{
+  background-color: rgb(109, 0, 0);
+  color: white;
+}
+.conta{
+  height: 20vh;
+}
+.botaoentrar{
+  background-color: green;
+  color: white;
+  width: 120px;
+  margin: 20px;
+}
+.coracao{
+  border-radius: 15px;
+  position: absolute;
+  left: 70%;
+  top:  90%;
+
+}
+::placeholder{
+  color: black;
+}
+
